@@ -69,7 +69,7 @@ No process is using port 8080.
 ```bash
 sudo chmod +x closeport.sh && sudo mv closeport closeport && sudo mv closeport /usr/bin && echo "Installed successfully!"
 ```
-So now you can type `closeport 8080` to forcefully stop PORT 8080 in your MACHINE.
+So now you can type `sudo closeport 8080` to forcefully stop PORT 8080 in your MACHINE.
 
 If you ever feel to uninstall it then type `sudo rm -rf /usr/bin/closeport`
 
