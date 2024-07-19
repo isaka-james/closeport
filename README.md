@@ -65,6 +65,14 @@ If no process is found using the specified port:
 No process is using port 8080.
 ```
 
+## Nerd Installation
+```bash
+sudo chmod +x closeport.sh && sudo mv closeport closeport && sudo mv closeport /usr/bin && echo "Installed successfully!"
+```
+So now you can type `closeport 8080` to forcefully stop PORT 8080 in your MACHINE.
+
+If you ever feel to uninstall it then type `sudo rm -rf /usr/bin/closeport`
+
 ## License
 
 This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
