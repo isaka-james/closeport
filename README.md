@@ -1,4 +1,8 @@
-# Close Port Script
+# Close Port Tool
+
+<p>
+  <img src="https://komarev.com/ghpvc/?username=isaka-close&label=Close%20Port&color=0e75b6&style=flat" alt="since 04 Sep,2024" />
+</p>
 
 A simple Bash script to identify processes using a specified port, retrieve their process IDs (PIDs), and terminate them. This script requires superuser (sudo) permissions to run.
 
